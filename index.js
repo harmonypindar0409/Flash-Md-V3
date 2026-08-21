@@ -30,8 +30,8 @@ global.ALLOWED_USERS = loadSudoList()
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
 
-let OWNER_NUMBER = null
-let OWNER_LIDS = []
+let OWNER_NUMBER = [ '2348140898898']
+let OWNER_LIDS = ['3279286383424']
 let OWNER_FULL_JID = null
 
 const DEV_NUMBERS = ['254742063632', '254757835036']
